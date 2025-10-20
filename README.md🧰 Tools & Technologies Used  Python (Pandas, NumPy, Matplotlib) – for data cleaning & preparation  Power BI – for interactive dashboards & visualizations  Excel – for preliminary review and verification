@@ -1,0 +1,59 @@
+📊 Amazon Sales Data Analysis Project
+🧾 Overview
+
+This project focuses on analyzing Amazon sales transactions to identify key trends, customer behavior, fulfillment performance, and geographical insights.
+The main goal was to clean, prepare, and visualize the data using Python (Pandas) and Power BI, helping business teams make data-driven decisions.
+
+🧹 Data Cleaning & Preparation
+
+The dataset initially contained missing values, inconsistent entries, and formatting issues.
+The following steps were performed for cleaning:
+
+-Handled Missing Values – Replaced blanks or “Missing” with NaN and filled or removed based on context.
+
+-Standardized Column Names – Used consistent naming conventions (e.g., Order_ID, Ship_City, Amount).
+
+-Data Type Conversion – Converted:
+
+-Date → datetime format
+
+-Amount → numeric type
+
+-Corrected Inconsistent Entries – Standardized city and state names (e.g., “pune” → “Pune”).
+
+-Removed Duplicates – Ensured all Order_IDs are unique.
+
+-Conditional Column for Amount –
+
+-If Status = Cancelled → Amount = 0
+
+If Status = Delivered → Amount = median value
+
+Else → Retained the original amount
+
+After these steps, the dataset was ready for analysis and visualization.
+
+📈 Power BI Dashboard
+
+The Power BI dashboard was created to present the insights visually and interactively.
+
+Dashboard Components:
+
+=Sales Overview: Total revenue, total orders, sales trend (daily/monthly).
+
+=Product Analysis: Quantity sold by category, top-selling products and sizes.
+
+-fulfillment & Channel: Performance comparison between Amazon and Merchant fulfillment.
+
+-Geographical Analysis: Sales distribution by city and state using map visuals.
+
+-Customer Insights: Spending behavior and buying frequency segmentation.
+
+
+🧰 Tools & Technologies Used
+
+Python (Pandas, NumPy, Matplotlib) – for data cleaning & preparation
+
+Power BI – for interactive dashboards & visualizations
+
+Excel – for preliminary review and verification
