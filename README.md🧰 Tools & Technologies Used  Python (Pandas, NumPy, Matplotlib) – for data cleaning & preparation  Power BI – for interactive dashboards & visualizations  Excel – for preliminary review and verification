@@ -1,5 +1,5 @@
-📊 Amazon Sales Data Analysis Project
-🧾 Overview
+# Amazon Sales Data Analysis Project
+## Overview
 
 This project focuses on analyzing Amazon sales transactions to identify key trends, customer behavior, fulfillment performance, and geographical insights.
 The main goal was to clean, prepare, and visualize the data using Python (Pandas) and Power BI, helping business teams make data-driven decisions.
@@ -33,7 +33,7 @@ Else → Retained the original amount
 
 After these steps, the dataset was ready for analysis and visualization.
 
-📈 Power BI Dashboard
+##Power BI Dashboard
 
 The Power BI dashboard was created to present the insights visually and interactively.
 
@@ -50,10 +50,13 @@ Dashboard Components:
 -Customer Insights: Spending behavior and buying frequency segmentation.
 
 
-🧰 Tools & Technologies Used
+## Tools & Technologies Used
 
 Python (Pandas, NumPy, Matplotlib) – for data cleaning & preparation
 
 Power BI – for interactive dashboards & visualizations
 
 Excel – for preliminary review and verification
+
+
+Dataset used 
